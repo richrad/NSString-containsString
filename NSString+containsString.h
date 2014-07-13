@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-@interface NSString (Better)
+@interface NSString (containsString)
 
 -(BOOL)containsString:(NSString *)string;
 -(BOOL)containsStringFromArray:(NSArray *)array;

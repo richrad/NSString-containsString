@@ -1,6 +1,6 @@
-#import "NSString+Better.h"
+#import "NSString+containsString.h"
 
-@implementation NSString (Better)
+@implementation NSString (containsString)
 
 -(BOOL)containsString:(NSString *)string
 {
